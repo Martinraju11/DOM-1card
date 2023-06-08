@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width:320px) {
+    img {
+        max-width: 100%;
+    }
+
+    .para-bottom {
+        width: 100%;
+    }
+}
+
+@media (min-width:620px) {
+    img {
+        max-width: 100%;
+    }
+
+    .para-bottom {
+        width: 100%;
+    }
+}
+
+@media (min-width:960px) {
+    img {
+        max-width: 25%;
+    }
+
+    .para-bottom {
+        width: 25%;
+    }
+}
+
+
+.paras {
+    color: #56b8e6;
+}
+
+.head {
+    padding: 15px 0;
+    font-size: 19px;
+    color: #1b2f45;
+}
+
+.para-bottom {
+
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: rgba(27, 47, 69, 0.7);
+}
+
+.links {
+    text-decoration: none;
+    color: #56b8e6;
+    font-size: 18px;
+}
